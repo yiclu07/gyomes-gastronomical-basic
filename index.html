@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gyome's Gastronomical</title>
+    <link rel="icon" type="image/svg" href="./images/icon.svg" />
+    <link href="./style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Skranji:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/4952cb10b6.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Header & Navigation -->
+    <header>
+      
+      <i class="fa-brands fa-wizards-of-the-coast fa-4x" id="logo"></i>
+      <nav>
+        <ul class="navbar-item-container">
+          <li><a>ORDER NOW</a></li>
+          <li><a>MENU</a></li>
+          <li><a>CATERING</a></li>
+          <li><a>MEMBERSHIP</a></li>
+          <li><a>OUR JOURNEY</a></li>
+          <li id="user-cart-container">
+            <a><i class="fa-solid fa-user fa-lg user-cart"></i></a>
+            <a>
+              <i
+                class="fa-solid fa-basket-shopping fa-lg user-cart"
+                id="cart"
+              ></i
+            ></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Main  -->
+    <main>
+      <section class="menu-container">
+        <!-- Food 01 -->
+        <article class="menu-item">
+          <img src="./images/food-01.jpg" />
+          <div class="menu-item-info-container">
+            <div class="menu-item-info">
+              <div>Mallorn-Wrapped Lembas</div>
+              <div>$9.99</div>
+            </div>
+            <button
+              class="add-item-btn"
+              value='{"name": "Mallorn-Wrapped Lembas", "price": 9.99, "quantity": 1}'
+            >
+              ADD
+            </button>
+          </div>
+        </article>
+
+        <!-- Food 02 -->
+        <article class="menu-item">
+          <img src="./images/food-02.jpg" />
+          <div class="menu-item-info-container">
+            <div class="menu-item-info">
+              <div>Eldraine's Wild Bounty</div>
+              <div>$17.99</div>
+            </div>
+            <button
+              class="add-item-btn"
+              value='{"name": "Eldraine&#39s Wild Bounty", "price": 17.99, "quantity": 1}'
+            >
+              ADD
+            </button>
+          </div>
+        </article>
+
+        <!-- Food 03 -->
+        <article class="menu-item">
+          <img src="./images/food-03.jpg" />
+          <div class="menu-item-info-container">
+            <div class="menu-item-info">
+              <div>Lost Traveler's Respite</div>
+              <div>$22.99</div>
+            </div>
+            <button class="add-item-btn"
+            value='{"name": "Lost Traveler&#39s Respite", "price": 22.99, "quantity": 1}'>ADD</button>
+          </div>
+        </article>
+
+        <!-- Food 04 -->
+        <article class="menu-item">
+          <img src="./images/food-04.jpg" />
+          <div class="menu-item-info-container">
+            <div class="menu-item-info">
+              <div>The Royal Entourage</div>
+              <div>$49.99</div>
+            </div>
+            <button class="add-item-btn" value='{"name": "The Royal Entourage", "price": 49.99, "quantity": 1}'>ADD</button>
+          </div>
+        </article>
+
+        <!-- Food 05 -->
+        <article class="menu-item">
+          <img src="./images/food-05.jpg" />
+          <div class="menu-item-info-container">
+            <div class="menu-item-info">
+              <div>Earthen Delight</div>
+              <div>$24.99</div>
+            </div>
+            <button class="add-item-btn" value='{"name": "Earthen Delight", "price": 24.99, "quantity": 1}'>ADD</button>
+          </div>
+        </article>
+
+        <!-- Food 06 -->
+        <article class="menu-item">
+          <img src="./images/food-06.jpg" />
+          <div class="menu-item-info-container">
+            <div class="menu-item-info">
+              <div>Deathspot Pie</div>
+              <div>$39.99</div>
+            </div>
+            <button class="add-item-btn" value='{"name": "Deathspot Pie", "price": 39.99, "quantity": 1}'>ADD</button>
+          </div>
+        </article>
+
+        <!-- Food 07 -->
+        <article class="menu-item">
+          <img src="./images/food-07.jpg" />
+          <div class="menu-item-info-container">
+            <div class="menu-item-info">
+              <div>Maw-Cage Wellington</div>
+              <div>$49.99</div>
+            </div>
+            <button class="add-item-btn" value='{"name": "Maw-Cage Wellington", "price": 49.99, "quantity": 1}'>ADD</button>
+          </div>
+        </article>
+
+        <!-- Food 09 -->
+        <article class="menu-item">
+          <img src="./images/food-09.jpg" />
+          <div class="menu-item-info-container">
+            <div class="menu-item-info">
+              <div>Cosmic Fiesta</div>
+              <div>$17.99</div>
+            </div>
+            <button class="add-item-btn" value='{"name": "Cosmic Fiesta", "price": 17.99, "quantity": 1}'>ADD</button>
+          </div>
+        </article>
+
+        <!-- Food 10 -->
+        <article class="menu-item">
+          <img src="./images/food-10.jpg" />
+          <div class="menu-item-info-container">
+            <div class="menu-item-info">
+              <div>The Unfinity-Stacked</div>
+              <div>$34.99</div>
+            </div>
+            <button class="add-item-btn" value='{"name": "The Unfinity-Stacked", "price": 34.99, "quantity": 1}'>ADD</button>
+          </div>
+        </article>
+
+        <!-- Food 11 -->
+        <article class="menu-item">
+          <img src="./images/food-11.jpg" />
+          <div class="menu-item-info-container">
+            <div class="menu-item-info">
+              <div>Itinerant Celebration</div>
+              <div>$49.99</div>
+            </div>
+            <button class="add-item-btn" value='{"name": "Itinerant Celebration", "price": 49.99, "quantity": 1}'>ADD</button>
+          </div>
+        </article>
+
+        <!-- Food 12 -->
+        <article class="menu-item">
+          <img src="./images/food-12.jpg" />
+          <div class="menu-item-info-container">
+            <div class="menu-item-info">
+              <div>Echoes of the Shire</div>
+              <div>$19.99</div>
+            </div>
+            <button class="add-item-btn" value='{"name": "Echoes of the Shires", "price": 19.99, "quantity": 1}'>ADD</button>
+          </div>
+        </article>
+
+        <!-- Food 13 -->
+        <article class="menu-item">
+          <img src="./images/food-13.jpg" />
+          <div class="menu-item-info-container">
+            <div class="menu-item-info">
+              <div>Minas Tirith Party Platter</div>
+              <div>$74.99</div>
+            </div>
+            <button class="add-item-btn" value='{"name": "Minas Tirith Party Platter", "price": 74.99, "quantity": 1}'>ADD</button>
+          </div>
+        </article>
+
+        <!-- Food 14 -->
+        <article class="menu-item">
+          <img src="./images/food-14.jpg" />
+          <div class="menu-item-info-container">
+            <div class="menu-item-info">
+              <div>Ilharg's Raze-Bacon</div>
+              <div>$69.99</div>
+            </div>
+            <button class="add-item-btn" value='{"name": "Ilharg&#39s Raze-Bacon", "price": 69.99, "quantity": 1}'>ADD</button>
+          </div>
+        </article>
+
+        <!-- FOod 17 -->
+        <article class="menu-item">
+          <img src="./images/food-17.jpg" />
+          <div class="menu-item-info-container">
+            <div class="menu-item-info">
+              <div>Candied Maw Lava-Cake</div>
+              <div>$37.99</div>
+            </div>
+            <button class="add-item-btn" value='{"name": "Candied Maw Lava-Cake", "price": 37.99, "quantity": 1}'>ADD</button>
+          </div>
+        </article>
+
+        <!-- Food 18 -->
+        <article class="menu-item">
+          <img src="./images/food-18.jpg" />
+          <div class="menu-item-info-container">
+            <div class="menu-item-info">
+              <div>Second Breakfast</div>
+              <div>$19.99</div>
+            </div>
+            <button class="add-item-btn" value='{"name": "Second Breakfast", "price": 19.99, "quantity": 1}'>ADD</button>
+          </div>
+        </article>
+
+        <!-- Food 19 -->
+        <article class="menu-item">
+          <img src="./images/food-19.jpg" />
+          <div class="menu-item-info-container">
+            <div class="menu-item-info">
+              <div>Newt-Eye Gaze Soup</div>
+              <div>$20.99</div>
+            </div>
+            <button class="add-item-btn" value='{"name": "Newt-Eye Gaze Soup", "price": 20.99, "quantity": 1}'>ADD</button>
+          </div>
+        </article>
+      </section>
+
+      <!-- Cart Overview -->
+      <!-- To do:
+      DONE 01: JS for mapping over cart array and getting li elements back
+      DONE 02: JS for calculating the total cost in cart
+      DONE 03: Make cart content scollable if a large quantity of items are in it so it does not overflow.
+      04: Make header responsive. It currently does not shrink at smaller breakpoints while the main element does (1250px width)
+      05: Add ability to subtract item from cart.
+      06: Make WOTC logo a hyperlink to Ding Tai Feng "https://www.dintaifungusa.com/"
+    -->
+      <section id="cart-overview-container">
+        <i class="fa-solid fa-circle-xmark fa-2xl" id="cart-overview-close-btn"></i>
+        <div class="cart-overview">
+          <h1>Cart Overview</h1>
+          <div id="cart-overview-items-container">
+            
+          </div>
+          <div id="price-row"><span>Total:</span><span id="total-price">$0</span></div>
+        </div>
+      </section>
+    </main>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
